@@ -26,6 +26,12 @@ jobs:
 
       - name: Script running
         run: node src/index.js
+        env:
+          CRAWL_URL: ${{ secrets.CRAWL_URL }}
+          BASE_URL: ${{ secrets.BASE_URL }}
+          RSS_OUTPUT: ${{ secrets.RSS_OUTPUT }}
+          SITE_LINK: ${{ secrets.SITE_LINK }}
+          SITE_TITLE: ${{ secrets.SITE_TITLE }}
 
       - name: RSS commit and push
         run: |
