@@ -2,8 +2,16 @@
 <rss version="2.0">
 <channel>
   <title>VoirAnime RSS</title>
-  <link>https://v6.voiranime.com/anime/boku-no-hero-academia-8/</link>
+  <link>https://v6.voiranime.com/anime/ninja-to-gokudou/</link>
   <description>Flux auto-généré depuis VoirAnime</description>
   
+    <item>
+      <title>Ninja VS Gokudou - 02 VOSTFR - 02</title>
+      <link>https://v6.voiranime.com/anime/ninja-to-gokudou/ninja-vs-gokudou-02-vostfr/</link>
+    </item>
+    <item>
+      <title>Ninja VS Gokudou - 01 VOSTFR - 01</title>
+      <link>https://v6.voiranime.com/anime/ninja-to-gokudou/ninja-vs-gokudou-01-vostfr/</link>
+    </item>
 </channel>
 </rss>
