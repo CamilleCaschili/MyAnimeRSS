@@ -39,3 +39,8 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Copy RSS to docs
+        run: |
+          mkdir -p docs
+          cp public/rss.xml docs/rss.xml
+
