@@ -31,8 +31,8 @@ jobs:
           SITE_TITLE: ${{ secrets.SITE_TITLE }}
       - name: Commit & push RSS
         run: |
-          git config user.name "CamilleCaschili"
-          git config user.email "camille.caschili-lucas@epitech.eu"
+          git config user.name ${{ secrets.USERNAME }}
+          git config user.email ${{ secrets.MAIL }}
           git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
           git add -f public/rss.xml data/seen.json || true
           git commit -m "RSS update" || echo "Nothing to commit"
